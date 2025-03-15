@@ -1,0 +1,14 @@
+E:\Project\StudentManageBackEnd\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+E:\Project\StudentManageBackEnd\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+E:\Project\StudentManageBackEnd\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+E:\Project\StudentManageBackEnd\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+E:\Project\StudentManageBackEnd\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+E:\Project\StudentManageBackEnd\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\StudentManageBackEnd\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+E:\Project\StudentManageBackEnd\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+E:\Project\StudentManageBackEnd\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\Project\StudentManageBackEnd\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+E:\Project\StudentManageBackEnd\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+E:\Project\StudentManageBackEnd\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+E:\Project\StudentManageBackEnd\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+E:\Project\StudentManageBackEnd\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll

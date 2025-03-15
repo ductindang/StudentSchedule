@@ -1,0 +1,15 @@
+E:\Project\StudentManageBackEnd\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.deps.json
+E:\Project\StudentManageBackEnd\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.dll
+E:\Project\StudentManageBackEnd\BusinessLogicLayer\bin\Debug\net8.0\BusinessLogicLayer.pdb
+E:\Project\StudentManageBackEnd\BusinessLogicLayer\bin\Debug\net8.0\DataAccessLayer.dll
+E:\Project\StudentManageBackEnd\BusinessLogicLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+E:\Project\StudentManageBackEnd\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+E:\Project\StudentManageBackEnd\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\StudentManageBackEnd\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+E:\Project\StudentManageBackEnd\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.AssemblyInfo.cs
+E:\Project\StudentManageBackEnd\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+E:\Project\StudentManageBackEnd\BusinessLogicLayer\obj\Debug\net8.0\Business.450209FB.Up2Date
+E:\Project\StudentManageBackEnd\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.dll
+E:\Project\StudentManageBackEnd\BusinessLogicLayer\obj\Debug\net8.0\refint\BusinessLogicLayer.dll
+E:\Project\StudentManageBackEnd\BusinessLogicLayer\obj\Debug\net8.0\BusinessLogicLayer.pdb
+E:\Project\StudentManageBackEnd\BusinessLogicLayer\obj\Debug\net8.0\ref\BusinessLogicLayer.dll
