@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "E:\\Project\\StudentManageFrontEnd\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\services\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\services\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\services\\iservices\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\services\\iservices\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +50,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UserService.cs",
               "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "StudentManageFrontEnd\\Services\\UserService.cs",
               "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Services\\UserService.cs",
               "RelativeToolTip": "StudentManageFrontEnd\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwEYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T02:03:23.928Z",
               "IsPinned": true,
@@ -40,13 +72,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Models\\User.cs",
               "RelativeDocumentMoniker": "StudentManageFrontEnd\\Models\\User.cs",
               "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Models\\User.cs",
               "RelativeToolTip": "StudentManageFrontEnd\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T02:04:22.411Z",
               "IsPinned": true,
@@ -54,20 +86,107 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Views\\User\\Register.cshtml",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "StudentManageFrontEnd\\Views\\User\\Register.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwC4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T03:12:17.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StudentManageFrontEnd\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwC0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T02:39:23.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\appsettings.json",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\appsettings.json",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\appsettings.json",
+              "RelativeToolTip": "StudentManageFrontEnd\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-22T01:48:44.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Controllers\\UserController.cs",
+              "RelativeToolTip": "StudentManageFrontEnd\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAUwE4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T06:55:03.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Program.cs",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Program.cs",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Program.cs",
+              "RelativeToolTip": "StudentManageFrontEnd\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T06:49:15.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Views\\User\\Login.cshtml",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "StudentManageFrontEnd\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAwwEQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T06:46:13.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISubjectService.cs",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Services\\IServices\\ISubjectService.cs",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Services\\IServices\\ISubjectService.cs",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Services\\IServices\\ISubjectService.cs",
+              "RelativeToolTip": "StudentManageFrontEnd\\Services\\IServices\\ISubjectService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T06:34:08.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "IUserService.cs",
               "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Services\\IServices\\IUserService.cs",
               "RelativeDocumentMoniker": "StudentManageFrontEnd\\Services\\IServices\\IUserService.cs",
               "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Services\\IServices\\IUserService.cs",
               "RelativeToolTip": "StudentManageFrontEnd\\Services\\IServices\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T02:03:14.374Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

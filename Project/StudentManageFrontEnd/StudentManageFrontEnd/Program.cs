@@ -1,7 +1,31 @@
+using StudentManageFrontEnd.Services.IServices;
+using StudentManageFrontEnd.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Add session
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+//-------
+
+//---Add Http for connection
+builder.Services.AddHttpClient<IUserService, UserService>(client =>
+{
+    client.BaseAddress = new Uri("http://localhost:5171/");
+});
+builder.Services.AddHttpClient<ISubjectService, SubjectService>(client =>
+{
+    client.BaseAddress = new Uri("http://localhost:5171/");
+});
+//---------
 
 var app = builder.Build();
 
@@ -13,6 +37,9 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+// open middleware Session
+app.UseSession();
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -22,6 +49,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=User}/{action=Login}/{id?}");
 
 app.Run();

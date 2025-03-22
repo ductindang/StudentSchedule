@@ -20,7 +20,7 @@ namespace DataAccessLayer.Repositories
 
         public async Task<Users> GetUserByEmailPass(string email, string password)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(u => String.Compare(u.Email, email, false) && String.Compare(u.Password, password, false));
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email && u.Password == password);
             return user;
         }
     }

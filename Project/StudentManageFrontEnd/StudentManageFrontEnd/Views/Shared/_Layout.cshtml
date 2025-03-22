@@ -13,8 +13,8 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">StudentManageFrontEnd</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
@@ -26,10 +26,37 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
+
+                    <!-- Kiểm tra người dùng đã đăng nhập hay chưa -->
+                    @if (Context.Session.GetString("AuthToken") != null)
+                    {
+                        <div class="dropdown ms-auto">
+                            <button class="btn btn-outline-primary dropdown-toggle" type="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user"></i> @Context.Session.GetString("UserName")
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                <li><a class="dropdown-item" asp-controller="User" asp-action="Profile">Hồ sơ</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="#" onclick="confirmDelete()" style="color:black">Xóa tài khoản</a>
+                                </li>
+
+                                <li><a class="dropdown-item" asp-controller="User" asp-action="Logout">Đăng xuất</a></li>
+                            </ul>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="d-flex ms-auto">
+                            <a class="btn btn-outline-primary me-2" asp-controller="User" asp-action="Login">Đăng nhập</a>
+                            <a class="btn btn-primary" asp-controller="User" asp-action="Register">Đăng ký</a>
+                        </div>
+                    }
                 </div>
             </div>
         </nav>
     </header>
+
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -41,6 +68,15 @@
             &copy; 2025 - StudentManageFrontEnd - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
+    <script>
+        function confirmDelete() {
+            if (confirm("Bạn có chắc chắn muốn xóa tài khoản không?")) {
+                window.location.href = '@Url.Action("Delete", "User")';
+            }
+        }
+    </script>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

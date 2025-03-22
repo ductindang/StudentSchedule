@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "mVB7rZRLJwU=",
+  "dgSpecHash": "YVSk54k6JHM=",
   "success": true,
   "projectFilePath": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\StudentManageFrontEnd.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\ducti\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

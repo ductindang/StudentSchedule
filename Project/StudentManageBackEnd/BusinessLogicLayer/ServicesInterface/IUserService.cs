@@ -15,5 +15,6 @@ namespace BusinessLogicLayer.ServicesInterface
         public Task<Users> UpdateUser(Users user);
         public Task<Users> DeleteUser(int id);
         Task<Users> GetUserByEmailPassword(string email, string password);
+        public Task<string> Login(string email, string password);
     }
 }

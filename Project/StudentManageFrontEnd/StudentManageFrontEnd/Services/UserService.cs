@@ -1,5 +1,9 @@
-﻿using StudentManageFrontEnd.Models;
+﻿using Microsoft.AspNetCore.Identity.Data;
+using Newtonsoft.Json;
+using StudentManageFrontEnd.Models;
 using StudentManageFrontEnd.Services.IServices;
+using System.Text;
+using System.Text.Json.Serialization;
 
 namespace StudentManageFrontEnd.Services
 {
@@ -12,9 +16,82 @@ namespace StudentManageFrontEnd.Services
             _httpClient = httpClient;
         }
 
-        public Task<IEnumerable<User>> GetUserByEmailPassword(string email, string password)
+        public async Task<string> Login(string email, string password)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var requestBody = new { Email = email, Password = password };
+                var content = new StringContent(JsonConvert.SerializeObject(requestBody), Encoding.UTF8, "application/json");
+
+                var response = await _httpClient.PostAsync("api/User/Login", content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var jsonString = await response.Content.ReadAsStringAsync();
+                    var result = JsonConvert.DeserializeObject<LoginResponse>(jsonString);
+                    return result?.Token;
+                }
+                else
+                {
+                    return null; // Trả về null nếu không đăng nhập được
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+                throw new ApplicationException("An error occurred while logging in.", ex);
+            }
         }
+
+        public async Task<User> InsertUser(User user)
+        {
+            try
+            {
+                var content = new StringContent(JsonConvert.SerializeObject(user), Encoding.UTF8, "application/json");
+                var response = await _httpClient.PostAsync("api/user", content);
+                if (response.IsSuccessStatusCode)
+                {
+                    var jsonString = await response.Content.ReadAsStringAsync();
+                    var newUser = JsonConvert.DeserializeObject<User>(jsonString);
+                    return newUser;
+                }
+                else
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    throw new HttpRequestException($"Request failed with status code {response.StatusCode} and reason: {response.ReasonPhrase}. Response content: {errorContent}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+                throw new ApplicationException("An error occurred while fetching the user by email and password.", ex);
+            }
+        }
+
+        public async Task<bool> DeleteUser(string token)
+        {
+            try
+            {
+                _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+                var response = await _httpClient.DeleteAsync("api/User/delete");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    return true;
+                }
+                else
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    throw new HttpRequestException($"Failed to delete user. Status Code: {response.StatusCode}, Reason: {response.ReasonPhrase}, Response: {errorContent}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+                throw new ApplicationException("An error occurred while deleting the user.", ex);
+            }
+        }
+
     }
 }
