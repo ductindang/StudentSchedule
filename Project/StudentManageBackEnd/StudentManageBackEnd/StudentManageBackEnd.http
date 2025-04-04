@@ -1,6 +1,0 @@
-@StudentManageBackEnd_HostAddress = http://localhost:5171
-
-GET {{StudentManageBackEnd_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
