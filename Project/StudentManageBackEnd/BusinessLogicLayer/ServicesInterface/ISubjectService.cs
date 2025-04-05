@@ -15,5 +15,6 @@ namespace BusinessLogicLayer.ServicesInterface
         public Task<Subjects> UpdateSubject(Subjects subject);
         public Task<Subjects> DeleteSubject(int id);
         public Task<bool> CheckSubjectExistInSchedule(int subjectId);
+        public Task<IEnumerable<Subjects>> DeleteSubjectsInUser(int userId);
     }
 }

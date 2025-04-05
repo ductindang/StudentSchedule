@@ -86,6 +86,19 @@ namespace DataAccessLayer.Repositories
             return existingSchedule;
         }
 
+        public async Task<IEnumerable<Schedules>> DeleteSchedulesInUser(int userId)
+        {
+            var schedulesToDelete = await GetSchedulesByUser(userId);
+            if(schedulesToDelete == null || schedulesToDelete.Count() == 0)
+            {
+                return Enumerable.Empty<Schedules>();
+            }
+
+            _context.Schedules.RemoveRange(schedulesToDelete);
+            await _context.SaveChangesAsync();
+            return schedulesToDelete;
+        }
+
     }
 
 

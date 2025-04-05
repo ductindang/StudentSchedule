@@ -14,10 +14,16 @@ namespace StudentManageBackEnd.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
+        private readonly IScheduleService _scheduleService;
+        private readonly ISubjectService _subjectService;
 
-        public UserController(IUserService userService)
+        public UserController(IUserService userService, 
+            IScheduleService scheduleService, 
+            ISubjectService subjectService)
         {
             _userService = userService;
+            _scheduleService = scheduleService;
+            _subjectService = subjectService;
         }
 
         [HttpGet]
@@ -152,6 +158,8 @@ namespace StudentManageBackEnd.Controllers
             }
 
             await _userService.DeleteUser(user.Id);
+            await _scheduleService.DeleteSchedulesInUser(user.Id);
+            await _subjectService.DeleteSubjectsInUser(user.Id);
 
             return Ok(user);
         }

@@ -25,6 +25,13 @@ namespace BusinessLogicLayer.Services
             return schedules;
         }
 
+
+        public async Task<IEnumerable<Schedules>> GetSchedulesByUser(int userId)
+        {
+            var schedules = await _scheduleRepository.GetSchedulesByUser(userId);
+            return schedules;
+        }
+
         public async Task<Schedules> GetScheduleById(int id)
         {
             var user = await _scheduleRepository.GetById(id);
@@ -51,9 +58,9 @@ namespace BusinessLogicLayer.Services
             return schedule;
         }
 
-        public async Task<IEnumerable<Schedules>> GetSchedulesByUser(int userId)
+        public async Task<IEnumerable<Schedules>> DeleteSchedulesInUser(int userId)
         {
-            var schedules = await _scheduleRepository.GetSchedulesByUser(userId);
+            var schedules = await _scheduleRepository.DeleteSchedulesInUser(userId);
             return schedules;
         }
     }

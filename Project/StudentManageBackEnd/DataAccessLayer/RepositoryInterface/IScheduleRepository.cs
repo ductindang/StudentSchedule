@@ -11,6 +11,7 @@ namespace DataAccessLayer.RepositoryInterface
     {
         public Task<IEnumerable<Schedules>> GetSchedulesByUser(int userId);
         public Task<Schedules> UpdateSchedule(Schedules schedule);
+        public Task<IEnumerable<Schedules>> DeleteSchedulesInUser(int userId);
         
     }
 }

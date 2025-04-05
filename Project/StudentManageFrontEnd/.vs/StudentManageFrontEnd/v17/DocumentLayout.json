@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,7 +41,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 171,
+          "DockedWidth": 180,
           "SelectedChildIndex": 4,
           "Children": [
             {
@@ -58,8 +58,7 @@
               "RelativeToolTip": "StudentManageFrontEnd\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:55:11.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T15:55:11.241Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "StudentManageFrontEnd\\Views\\User\\Update.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAAAwwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T15:55:03.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T15:55:03.597Z"
             },
             {
               "$type": "Document",
@@ -84,12 +82,11 @@
               "RelativeToolTip": "StudentManageFrontEnd\\Services\\IServices\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:47:38.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T15:47:38.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UserService.cs",
               "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "StudentManageFrontEnd\\Services\\UserService.cs",
@@ -110,13 +107,12 @@
               "RelativeToolTip": "StudentManageFrontEnd\\Controllers\\UserController.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAgwGEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:44:38.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T15:44:38.192Z"
             }
           ]
         },
         {
-          "DockedWidth": 281,
+          "DockedWidth": 272,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -127,14 +123,14 @@
               "RelativeDocumentMoniker": "StudentManageFrontEnd\\Controllers\\ScheduleController.cs",
               "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Controllers\\ScheduleController.cs",
               "RelativeToolTip": "StudentManageFrontEnd\\Controllers\\ScheduleController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCgAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwB0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T16:14:06.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SubjectController.cs",
               "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Controllers\\SubjectController.cs",
               "RelativeDocumentMoniker": "StudentManageFrontEnd\\Controllers\\SubjectController.cs",
@@ -142,8 +138,7 @@
               "RelativeToolTip": "StudentManageFrontEnd\\Controllers\\SubjectController.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAcwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:49:51.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T15:49:51.792Z"
             },
             {
               "$type": "Document",
@@ -155,8 +150,7 @@
               "RelativeToolTip": "StudentManageFrontEnd\\Services\\SubjectService.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAIwBsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:48:17.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T15:48:17.446Z"
             }
           ]
         }

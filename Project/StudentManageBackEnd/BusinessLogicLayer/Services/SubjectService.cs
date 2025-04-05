@@ -48,5 +48,10 @@ namespace BusinessLogicLayer.Services
         {
             return await _subjectRepository.CheckSubjectExistInSchedule(subjectId);
         }
+
+        public async Task<IEnumerable<Subjects>> DeleteSubjectsInUser(int userId)
+        {
+            return await _subjectRepository.DeleteSubjectsInUser(userId);
+        }
     }
 }

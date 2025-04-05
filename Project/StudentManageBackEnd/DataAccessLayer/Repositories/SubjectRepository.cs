@@ -30,5 +30,15 @@ namespace DataAccessLayer.Repositories
             var subject = await _context.Schedules.AnyAsync(sc => sc.SubjectId == subjectId);
             return subject;
         }
+
+        public async Task<IEnumerable<Subjects>> DeleteSubjectsInUser(int userId)
+        {
+            var subjectsToDelete = await GetAllSubjectsFollowUser(userId);
+            if(subjectsToDelete == null || subjectsToDelete.Count() == 0)
+                { return Enumerable.Empty<Subjects>(); }
+            _context.Subjects.RemoveRange(subjectsToDelete);
+            await _context.SaveChangesAsync();
+            return subjectsToDelete;
+        }
     }
 }

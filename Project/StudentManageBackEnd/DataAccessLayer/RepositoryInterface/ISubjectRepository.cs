@@ -11,5 +11,6 @@ namespace DataAccessLayer.RepositoryInterface
     {
         public Task<IEnumerable<Subjects>> GetAllSubjectsFollowUser(int userId);
         public Task<bool> CheckSubjectExistInSchedule(int subjectId);
+        public Task<IEnumerable<Subjects>> DeleteSubjectsInUser(int userId);
     }
 }

@@ -275,6 +275,32 @@
   },
   {
     "ContainingType": "StudentManageBackEnd.Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/User",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedUser",
+        "Type": "DataAccessLayer.Model.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DataAccessLayer.Model.Users",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StudentManageBackEnd.Controllers.UserController",
     "Method": "DeleteUser",
     "RelativePath": "api/User/delete",
     "HttpMethod": "DELETE",
@@ -349,31 +375,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "StudentManageBackEnd.Controllers.UserController",
-    "Method": "UpdateUser",
-    "RelativePath": "api/User/update",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "updatedUser",
-        "Type": "DataAccessLayer.Model.Users",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "DataAccessLayer.Model.Users",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
   }
 ]
