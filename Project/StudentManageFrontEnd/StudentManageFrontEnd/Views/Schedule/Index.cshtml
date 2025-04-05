@@ -1,0 +1,48 @@
+﻿@model IEnumerable<StudentManageFrontEnd.Models.Schedule>
+
+@{
+    ViewData["Title"] = "Lịch Học";
+}
+
+<h2>Lịch Học</h2>
+<button style="background-color: aquamarine" onclick="location.href='@Url.Action("Insert", "Schedule")'">Thêm lịch học</button>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Mã Người Dùng</th>
+                <th>Tên Môn Học</th>
+                <th>Thứ</th>
+                <th>Thời Gian Bắt Đầu</th>
+                <th>Thời Gian Kết Thúc</th>
+                <th>Hành Động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var schedule in Model)
+            {
+                <tr>
+                    <td>@schedule.UserId</td>
+                    <td>@schedule.SubjectName</td> 
+                    <td>@schedule.DayOfWeek</td>
+                    <td>@schedule.StartTime.ToString(@"hh\:mm")</td>
+                    <td>@schedule.EndTime.ToString(@"hh\:mm")</td>
+                    <td>
+                        <a asp-controller="Schedule" asp-action="Update" asp-route-id="@schedule.Id" class="btn btn-warning">Sửa</a>
+                        <form asp-controller="Schedule" asp-action="Delete" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@schedule.Id" />
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa lịch học này không?');">Xóa</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+else
+{
+    <p>Không có lịch học nào để hiển thị.</p>
+}

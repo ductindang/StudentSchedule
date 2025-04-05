@@ -1,0 +1,72 @@
+﻿@model StudentManageFrontEnd.Models.User
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = null;
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        width: 300px;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .error {
+        color: red;
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background: #28a745;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+        button:hover {
+            background: #218838;
+        }
+
+    a {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #007bff;
+    }
+</style>
+
+<div class="container">
+    <h2>Register</h2>
+
+    <form asp-action="Register">
+        <input asp-for="FullName" placeholder="Full Name" />
+        <span asp-validation-for="FullName" class="error"></span>
+
+        <input asp-for="Email" type="email" placeholder="Email" />
+        <span asp-validation-for="Email" class="error"></span>
+
+        <input asp-for="Password" type="password" placeholder="Password" />
+        <span asp-validation-for="Password" class="error"></span>
+
+        <p class="error">@ViewBag.Error</p>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <a asp-action="Login">Already have an account? Login here</a>
+</div>
