@@ -21,7 +21,6 @@
     <table class="table table-bordered">
         <thead>
             <tr>
-                <th>ID</th>
                 <th>Tên môn học</th>
                 <th>Mô tả</th>
             </tr>
@@ -30,7 +29,6 @@
             @foreach (var subject in Model)
             {
                 <tr>
-                    <td>@subject.Id</td>
                     <td>@subject.Name</td>
                     <td>@subject.Description</td>
                     <td>

@@ -51,10 +51,10 @@
 </style>
 
 <div class="container">
-    <h2>Register</h2>
+    <h2>Đăng ký</h2>
 
     <form asp-action="Register">
-        <input asp-for="FullName" placeholder="Full Name" />
+        <input asp-for="FullName" placeholder="Họ và tên" />
         <span asp-validation-for="FullName" class="error"></span>
 
         <input asp-for="Email" type="email" placeholder="Email" />
@@ -65,8 +65,8 @@
 
         <p class="error">@ViewBag.Error</p>
 
-        <button type="submit">Register</button>
+        <button type="submit">Đăng ký</button>
     </form>
 
-    <a asp-action="Login">Already have an account? Login here</a>
+    <a asp-action="Login">Đã có tài khoản! Đăng nhập ngay</a>
 </div>

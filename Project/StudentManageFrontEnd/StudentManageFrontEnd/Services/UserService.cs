@@ -55,10 +55,7 @@ namespace StudentManageFrontEnd.Services
                     var result = JsonConvert.DeserializeObject<LoginResponse>(jsonString);
                     return result?.Token;
                 }
-                else
-                {
-                    return null;
-                }
+                return null;
             }
             catch (Exception ex)
             {
@@ -79,11 +76,7 @@ namespace StudentManageFrontEnd.Services
                     var newUser = JsonConvert.DeserializeObject<User>(jsonString);
                     return newUser;
                 }
-                else
-                {
-                    var errorContent = await response.Content.ReadAsStringAsync();
-                    throw new HttpRequestException($"Request failed with status code {response.StatusCode} and reason: {response.ReasonPhrase}. Response content: {errorContent}");
-                }
+                return null;
             }
             catch (Exception ex)
             {
@@ -96,7 +89,7 @@ namespace StudentManageFrontEnd.Services
         {
             try
             {
-                _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+                _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
                 var response = await _httpClient.DeleteAsync("api/User/delete");
 
@@ -104,11 +97,7 @@ namespace StudentManageFrontEnd.Services
                 {
                     return true;
                 }
-                else
-                {
-                    var errorContent = await response.Content.ReadAsStringAsync();
-                    throw new HttpRequestException($"Failed to delete user. Status Code: {response.StatusCode}, Reason: {response.ReasonPhrase}, Response: {errorContent}");
-                }
+                return false;
             }
             catch (Exception ex)
             {

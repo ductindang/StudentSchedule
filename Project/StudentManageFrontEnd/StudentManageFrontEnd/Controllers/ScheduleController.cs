@@ -29,6 +29,10 @@ namespace StudentManageFrontEnd.Controllers
 
         public async Task<IActionResult> Index()
         {
+            if (_token == "")
+            {
+                return RedirectToAction("Login", "User");
+            }
             var schedules = await _scheduleService.GetScheduleByUserId(_token);
             if(schedules != null)
             {
@@ -43,7 +47,6 @@ namespace StudentManageFrontEnd.Controllers
                     }
                 }
 
-                // Sắp xếp theo thứ tự trong tuần trước, sau đó theo thời gian bắt đầu
                 schedules = schedules.OrderBy(s => s.DayOfWeek)
                                      .ThenBy(s => s.StartTime)
                                      .ToList();

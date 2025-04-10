@@ -54,20 +54,20 @@ namespace StudentManageFrontEnd.Controllers
 
             if (string.IsNullOrEmpty(token))
             {
-                ViewBag.Error = "Wrong email or password! Please try again.";
+                ViewBag.Error = "Sai Email hoặc mật khẩu! Vui lòng thử lại.";
                 return View();
             }
 
             // Lưu token vào session (tuỳ vào cách bạn muốn lưu)
             HttpContext.Session.SetString("AuthToken", token);
 
-            return RedirectToAction("Index", "Schedule"); // Chuyển hướng sau khi đăng nhập thành công
+            return RedirectToAction("Index", "Subject"); // Chuyển hướng sau khi đăng nhập thành công
         }
 
         public IActionResult Logout()
         {
             HttpContext.Session.Clear(); // Xóa tất cả dữ liệu trong session
-            return RedirectToAction("Index", "Schedule"); // Chuyển về trang chủ
+            return RedirectToAction("Login", "User"); // Chuyển về trang chủ
         }
 
         public IActionResult Register()
@@ -83,7 +83,7 @@ namespace StudentManageFrontEnd.Controllers
                 var newUser = await _userService.InsertUser(model);
                 if (newUser == null)
                 {
-                    ViewBag.Error = "Registration failed. Email might already be in use.";
+                    ViewBag.Error = "Đăng ký thất bại. Email này đã tồn tại.";
                     return View(model);
                 }
                 return RedirectToAction("Login");
@@ -113,7 +113,7 @@ namespace StudentManageFrontEnd.Controllers
                 return View(newUser);
             }
 
-            return RedirectToAction("Index", "Schedule");
+            return RedirectToAction("Index", "Subject");
         }
 
         public async Task<IActionResult> Delete()

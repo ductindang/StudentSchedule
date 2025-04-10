@@ -25,13 +25,12 @@ namespace BusinessLogicLayer.Helper
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtSettings:Key"]));
             var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-            var claims = new List<Claim>
-        {
-            new Claim(JwtRegisteredClaimNames.Sub, user.Email),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-            new Claim("FullName", user.FullName),
-            new Claim("UserId", user.Id.ToString())
-        };
+            var claims = new List<Claim>{
+                new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim("FullName", user.FullName),
+                new Claim("UserId", user.Id.ToString())
+            };
 
             var token = new JwtSecurityToken(
                 issuer: _configuration["JwtSettings:Issuer"],
@@ -45,3 +44,4 @@ namespace BusinessLogicLayer.Helper
         }
     }
 }
+

@@ -3,36 +3,88 @@
   "WorkspaceRootPath": "E:\\Project\\StudentManageFrontEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\views\\user\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\views\\user\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\views\\subject\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\views\\subject\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\views\\schedule\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\views\\schedule\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\views\\subject\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\views\\subject\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\views\\subject\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\views\\subject\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\views\\schedule\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\views\\schedule\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\views\\schedule\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\views\\schedule\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\models\\enum\\weekday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\models\\enum\\weekday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\services\\scheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\services\\scheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\services\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\services\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\views\\user\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\views\\user\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\services\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\services\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|e:\\project\\studentmanagefrontend\\studentmanagefrontend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59F36D6B-DA79-4908-8472-C82B9808D79C}|StudentManageFrontEnd\\StudentManageFrontEnd.csproj|solutionrelative:studentmanagefrontend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,8 +93,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 180,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 204,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,105 +102,272 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Views\\User\\Register.cshtml",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "StudentManageFrontEnd\\Views\\User\\Register.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T09:57:05.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Insert.cshtml",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\Subject\\Insert.cshtml",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Views\\Subject\\Insert.cshtml",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\Subject\\Insert.cshtml",
+              "RelativeToolTip": "StudentManageFrontEnd\\Views\\Subject\\Insert.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T09:54:45.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Views\\User\\Login.cshtml",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "StudentManageFrontEnd\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T09:52:11.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\Subject\\Index.cshtml",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Views\\Subject\\Index.cshtml",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\Subject\\Index.cshtml",
+              "RelativeToolTip": "StudentManageFrontEnd\\Views\\Subject\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T02:42:38.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Models\\User.cs",
               "RelativeDocumentMoniker": "StudentManageFrontEnd\\Models\\User.cs",
               "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Models\\User.cs",
               "RelativeToolTip": "StudentManageFrontEnd\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:55:11.241Z"
+              "WhenOpened": "2025-04-04T15:55:11.241Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Update.cshtml",
               "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\User\\Update.cshtml",
               "RelativeDocumentMoniker": "StudentManageFrontEnd\\Views\\User\\Update.cshtml",
               "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\User\\Update.cshtml",
               "RelativeToolTip": "StudentManageFrontEnd\\Views\\User\\Update.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAwwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T15:55:03.597Z"
+              "WhenOpened": "2025-04-04T15:55:03.597Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
               "Title": "IUserService.cs",
               "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Services\\IServices\\IUserService.cs",
               "RelativeDocumentMoniker": "StudentManageFrontEnd\\Services\\IServices\\IUserService.cs",
               "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Services\\IServices\\IUserService.cs",
               "RelativeToolTip": "StudentManageFrontEnd\\Services\\IServices\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T15:47:38.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "UserService.cs",
               "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "StudentManageFrontEnd\\Services\\UserService.cs",
               "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Services\\UserService.cs",
               "RelativeToolTip": "StudentManageFrontEnd\\Services\\UserService.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAmwHgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T15:47:36.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "UserController.cs",
               "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "StudentManageFrontEnd\\Controllers\\UserController.cs",
               "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Controllers\\UserController.cs",
               "RelativeToolTip": "StudentManageFrontEnd\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAgwGEAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:44:38.192Z"
+              "WhenOpened": "2025-04-04T15:44:38.192Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 272,
+          "DockedWidth": 248,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\Subject\\Update.cshtml",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Views\\Subject\\Update.cshtml",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\Subject\\Update.cshtml",
+              "RelativeToolTip": "StudentManageFrontEnd\\Views\\Subject\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T09:56:26.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\Schedule\\Update.cshtml",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Views\\Schedule\\Update.cshtml",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\Schedule\\Update.cshtml",
+              "RelativeToolTip": "StudentManageFrontEnd\\Views\\Schedule\\Update.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T09:54:27.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Insert.cshtml",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\Schedule\\Insert.cshtml",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Views\\Schedule\\Insert.cshtml",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\Schedule\\Insert.cshtml",
+              "RelativeToolTip": "StudentManageFrontEnd\\Views\\Schedule\\Insert.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T09:54:15.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\Schedule\\Index.cshtml",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Views\\Schedule\\Index.cshtml",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\Schedule\\Index.cshtml",
+              "RelativeToolTip": "StudentManageFrontEnd\\Views\\Schedule\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T09:54:02.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeekDay.cs",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Models\\Enum\\WeekDay.cs",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Models\\Enum\\WeekDay.cs",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Models\\Enum\\WeekDay.cs",
+              "RelativeToolTip": "StudentManageFrontEnd\\Models\\Enum\\WeekDay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T03:27:23.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Program.cs",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Program.cs",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Program.cs",
+              "RelativeToolTip": "StudentManageFrontEnd\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T03:17:01.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StudentManageFrontEnd\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T03:16:03.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Models\\Subject.cs",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Models\\Subject.cs",
+              "RelativeToolTip": "StudentManageFrontEnd\\Models\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T02:43:06.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ScheduleService.cs",
+              "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Services\\ScheduleService.cs",
+              "RelativeDocumentMoniker": "StudentManageFrontEnd\\Services\\ScheduleService.cs",
+              "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Services\\ScheduleService.cs",
+              "RelativeToolTip": "StudentManageFrontEnd\\Services\\ScheduleService.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAcwIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T02:33:49.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ScheduleController.cs",
               "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Controllers\\ScheduleController.cs",
               "RelativeDocumentMoniker": "StudentManageFrontEnd\\Controllers\\ScheduleController.cs",
               "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Controllers\\ScheduleController.cs",
               "RelativeToolTip": "StudentManageFrontEnd\\Controllers\\ScheduleController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwB0AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAuwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T16:14:06.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T16:14:06.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "SubjectController.cs",
               "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Controllers\\SubjectController.cs",
               "RelativeDocumentMoniker": "StudentManageFrontEnd\\Controllers\\SubjectController.cs",
               "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Controllers\\SubjectController.cs",
               "RelativeToolTip": "StudentManageFrontEnd\\Controllers\\SubjectController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T15:49:51.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "SubjectService.cs",
               "DocumentMoniker": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Services\\SubjectService.cs",
               "RelativeDocumentMoniker": "StudentManageFrontEnd\\Services\\SubjectService.cs",
               "ToolTip": "E:\\Project\\StudentManageFrontEnd\\StudentManageFrontEnd\\Services\\SubjectService.cs",
               "RelativeToolTip": "StudentManageFrontEnd\\Services\\SubjectService.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAIwBsAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAcwBsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T15:48:17.446Z"
             }

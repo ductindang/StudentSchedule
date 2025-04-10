@@ -24,6 +24,10 @@ namespace StudentManageFrontEnd.Controllers
 
         public async Task<IActionResult> Index()
         {
+            if (_token == "")
+            {
+                return RedirectToAction("Login", "User");
+            }
             var subjects = await _subjectService.GetAllSubject(_token);
 
             return View(subjects);

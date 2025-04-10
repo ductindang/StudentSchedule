@@ -64,10 +64,10 @@
 </style>
 
 <div class="container">
-    <h2>Login</h2>
+    <h2>Đăng nhập</h2>
 
     <form asp-action="Login">
-        <input asp-for="Email" placeholder="Username or email" />
+        <input asp-for="Email" placeholder="Email" />
         <span asp-validation-for="Email" class="error"></span>
 
         <input asp-for="Password" type="password" placeholder="Password" />
@@ -75,10 +75,10 @@
 
         <p class="error">@ViewBag.Error</p>
 
-        <button type="submit" class="btn-login">Login</button>
+        <button type="submit" class="btn-login">Đăng nhập</button>
 
         <button type="button" class="btn-signup" onclick="location.href='@Url.Action("Register", "User")'">
-            Signup
+            Đăng ký
         </button>
     </form>
 </div>
