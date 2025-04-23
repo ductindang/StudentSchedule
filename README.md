@@ -9,35 +9,25 @@ Dự án **Quản Lý Lịch Học** là một ứng dụng giúp người dùng
 - **Giao tiếp dữ liệu**: Socket hoặc REST API
 
 ## Hướng Dẫn Cài Đặt
-### 1. Clone Repository
+### Clone Repository
 ```bash
 git clone https://github.com/your-repo-url.git
 cd your-repo-folder
 ```
-### 2. Cấu Hình Môi Trường
-- Cấu hình Firebase hoặc MySQL/PostgreSQL theo thông tin dự án.
-- Định nghĩa API Key và các thông tin bảo mật trong tệp `.env`.
-
-### 3. Cài Đặt Dependencies
-```bash
-npm install  # Nếu dùng Node.js
-```
-hoặc
-```bash
-gradle build  # Nếu dùng Android Studio
-```
-
-### 4. Chạy Ứng Dụng
-```bash
-npm start  # Nếu backend Node.js
-```
-hoặc chạy trực tiếp trên Android Studio đối với ứng dụng di động.
-
+### Cài đặt trình quản lý dữ liệu MySQL: Xampp và HeidiSQL hoặc MySQL WorkBench
+#### Cài đặt Xampp và HeidiSQL
+- Truy cập đường link: https://www.apachefriends.org/download.html và tải Xampp đúng với cấu hình của máy tính
+- Truy cập đường link: https://www.heidisql.com/download.php và tải HeidiSQL
+- Sau khi tải xong, cài đặt phần mềm và bắt đầu chạy chương trình
+### Cài đặt MySQL WorkBench
+- Truy cập đường link: https://www.mysql.com/products/workbench/ và tải MySQL WorkBench phù hợp với phiên bản máy tính
+- Cài đặt phần mềm trên máy tính
+## Sau khi hoàn tất các bước trên, chạy phần mềm trên ứng dụng Visual Studio
 ## Tính Năng Chính
 - Đăng ký, đăng nhập, quản lý thông tin cá nhân.
 - Thêm, sửa, xóa môn học.
 - Lập kế hoạch và theo dõi lịch học.
-- Đồng bộ dữ liệu lịch học với Firebase.
+- Đồng bộ dữ liệu lịch học với MySQL.
 - Thông báo nhắc nhở lịch học theo thời gian thực.
 
 ## Đóng Góp
