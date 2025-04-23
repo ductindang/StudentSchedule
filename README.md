@@ -33,5 +33,3 @@ cd your-repo-folder
 ## Đóng Góp
 Nếu bạn muốn đóng góp vào dự án, hãy tạo một Pull Request hoặc liên hệ với chúng tôi qua email.
 
-## Giấy Phép
-Dự án này được phát hành theo giấy phép MIT.
